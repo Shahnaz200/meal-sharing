@@ -15,7 +15,7 @@ const knex = require("knex")({
 
 // Check that the connection works
 knex.raw("SELECT VERSION()").then(() => {
-  console.log(`connection to db successful!`);
+  console.log(`Connection To Database Successful!`);
 });
 
 module.exports = knex;

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+body{
+  background: rgb(0, 140, 255);
+  height: 850px;
+  color: white;
+}
+
+.titles{
+  font-size: 75px;
+  color: white;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.titles h3{
+  position: relative;
+  bottom: 40px;
+  font-size: 35px;
+}
+
+.heading img{
+  position: relative;
+  right: 630px;
+  bottom: 250px;
+  width: 200px;
+  height: 200px;
+}
+
+.bodyParts{
+  position: absolute;
+  top: 170px;
+}
+
+.reserve-btn{
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(7, 123, 255);
+  cursor: pointer;
+}
+
+.Viewmore-btn{
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(17, 92, 178);
+  cursor: pointer;
+}
+
+.meals2{
+  position: relative;
+  top: 50px;
+  padding-left: 40px;
+  border-radius: 6px;
+  float: left;
+  width: 400px;
+  height: 300px;
+  left: 45px;
+}
+
+.mealInfo2 li{
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border: solid 3px white;
+  border-radius: 5px;
+}
+
+.mealInfo2 p{
+  text-decoration: none;
+}
+
+footer{
+  position: absolute;
+  top: 1570px;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  background-color: rgb(17, 114, 195);
+}
+
+footer h3{
+  padding: 50px;
+  text-align: center;
+}

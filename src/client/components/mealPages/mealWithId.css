@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+body{
+  background: rgb(0, 140, 255);
+  height: 850px;
+}
+
+.meals3{
+  position: relative;
+  top: 50px;
+  padding-left: 40px;
+  border-radius: 6px;
+  width: 600px;
+  height: 300px;
+}
+
+.mealInfo3 li{
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border: solid 3px white;
+  border-radius: 5px;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+body{
+  background: rgb(0, 140, 255);
+  height: 400px;
+}
+
+.titles{
+  font-size: 75px;
+  color: white;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.titles h3{
+  position: relative;
+  bottom: 40px;
+  font-size: 35px;
+}
+
+.heading img{
+  position: relative;
+  right: 630px;
+  bottom: 250px;
+  width: 200px;
+  height: 200px;
+}
+
+.foodPic img{
+  position: relative;
+  bottom: 150px;
+  width: 1400px;
+  height: 600px;
+}
+
+.viewMenu{
+  position: relative;
+  bottom: 300px;
+}
+
+.viewMenu h2{
+  font-size: 60px;
+  color: white;
+}
+
+.viewMenu button{
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  font-size: 25px;
+  color: white;
+  background-color: rgb(7, 123, 255);
+  cursor: pointer;
+} 
+
+.meals{
+  position: relative;
+  bottom: 150px;
+  padding-left: 40px;
+  border-radius: 6px;
+  float: left;
+  width: 400px;
+  height: 300px;
+  left: 45px;
+}
+
+.mealInfo li{
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border: solid 3px white;
+  border-radius: 5px;
+}
+
+footer{
+  position: absolute;
+  top: 1050px;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  background-color: rgb(17, 114, 195);
+}
+
+footer h3{
+  padding: 50px;
+  text-align: center;
+}

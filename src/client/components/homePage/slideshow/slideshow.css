@@ -1,0 +1,33 @@
+.slide-container {
+ position: relative;
+ direction: ltr;
+ width: 70%;
+ margin: auto;
+ bottom: 260px;
+}
+
+.each-slide > div {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-size: cover;
+ width: 500px;
+ height: 400px;
+}
+
+.each-fade {
+ display: flex;
+}
+
+.each-fade .image-container {
+ width: 75%;
+ overflow: hidden;
+}
+
+.each-fade .image-container img {
+ width: 100%;
+}
+
+.react-slideshow-container + div.indicators > div:last-of-type {
+ margin-right: 10px;
+}

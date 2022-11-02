@@ -1,0 +1,63 @@
+.reserve-btn{
+ width: 160px;
+ height: 40px;
+ border: none;
+ border-radius: 5px;
+ font-size: 18px;
+ color: white;
+ background-color: rgb(7, 123, 255);
+ cursor: pointer;
+}
+
+.addMeal-btn{
+ width: 160px;
+ height: 40px;
+ border: none;
+ border-radius: 5px;
+ font-size: 18px;
+ color: white;
+ background-color: rgb(21, 107, 205);
+ cursor: pointer;
+}
+
+.reserve-form {
+ position: relative;
+ top: 250px;
+ width: 100%;
+ left: 300px;
+ padding: 8%;
+ border-radius: 16px;
+ transform: translate(-50%,-50%);
+ background: rgba(255, 255, 255, 0.34);
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+ border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.add-form {
+ position: relative;
+ top: 350px;
+ width: 400px;
+ left: 250px;
+ padding: 5%;
+ border-radius: 16px;
+ transform: translate(-50%,-50%);
+ background: rgba(255, 255, 255, 0.34);
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+ border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.add-form h2{
+ font-size: 33px;
+}
+
+.info {
+ margin: 20px 0;
+}
+
+.info input {
+ padding-left: 10px;
+ width: 100%;
+ height: 40px;
+ margin: 3px;
+ font-size: 17px;
+}
